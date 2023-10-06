@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css"href="styles.css"/>
+        <script src="script.js"></script>
+
+    </head>
+
+    <body>
+        <table id="calculator">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="screen" placeholder="Input Here">
+                </td>
+                <td><button onClick="clearScreen()">C</td>
+            </tr>
+    
+            <tr>
+                <td><button onClick="getButtonText(event)">7</button></td>
+                <td><button onClick="getButtonText(event)">8</button></td>
+                <td><button onClick="getButtonText(event)">9</button></td>
+                <td><button onClick="getButtonText(event)">+</button></td>
+            </tr>
+    
+            <tr>
+                <td><button onClick="getButtonText(event)">4</button></td>
+                <td><button onClick="getButtonText(event)">5</button></td>
+                <td><button onClick="getButtonText(event)">6</button></td>
+                <td><button onClick="getButtonText(event)">-</button></td>
+
+            </tr>
+    
+            <tr>
+                <td><button onClick="getButtonText(event)">1</button></td>
+                <td><button onClick="getButtonText(event)">2</button></td>
+                <td><button onClick="getButtonText(event)">3</button></td>
+                <td><button onClick="getButtonText(event)">X</button></td>
+
+            </tr>
+
+            <tr>
+                <td><button onClick="getButtonText(event)"></button></td>
+                <td><button onClick="getButtonText(event)">0</button></td>
+                <td><button onClick="solve()">=</button></td>
+                <td><button onClick="getButtonText(event)">/</button></td>
+
+            </tr>
+
+            
+
+        </table>
+    </body>
+</html>
